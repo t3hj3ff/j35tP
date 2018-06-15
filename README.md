@@ -14,6 +14,7 @@ User/Password(Admin): admin/admin123
 User/Password(User): user/user123
 ```
 - PHP Support 5.6+.
+- Simple yet efficient DB structure with foreignkey relations, and index lookups.
 - Caching Enabled using xcache (not for all pages).
 - Using RBAC with permission tables set up for 2 type with proper permissions for managing stocks and vieweing menus (admin && user).
 - RBAC is implemented in a way where it checks if user has perms (user->can()).
